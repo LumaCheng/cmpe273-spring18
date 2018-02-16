@@ -1,10 +1,11 @@
 
-Required Packages
+# Required Packages
 
-python3
+```python3
 grpc
 IDE: visual studio code
 extensions: vscode-proto3
+```
 
 # Install grpc tools
 
