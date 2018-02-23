@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import request, url_for
 from flask import json
-from werkzeug.contrib.cache import SimpleCache
 app = Flask(__name__)
 
 count = 1
