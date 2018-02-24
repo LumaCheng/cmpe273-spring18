@@ -24,7 +24,7 @@ curl -l -i http://127.0.0.1:5000/
 curl -X POST -i http://127.0.0.1:5000/users -d “name=foo”
 ```
 
-#＃ Response
+## Response
 
 ```
 HTTP/1.0 201 Created
@@ -41,7 +41,7 @@ HTTP/1.0 201 Created
 curl -X GET -i http://127.0.0.1:5000/users/1
 ```
 
-#＃ Response
+## Response
 
 ```
 HTTP/1.0 200 OK
@@ -58,10 +58,9 @@ HTTP/1.0 200 OK
 curl -X DELETE -i http://127.0.0.1:5000/users/1
 ```
 
-#＃ Response
+## Response
 
 ```
 HTTP/1.0 204 No Content
 ...
 ```
-
