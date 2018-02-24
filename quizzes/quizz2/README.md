@@ -24,10 +24,32 @@ curl -l -i http://127.0.0.1:5000/
 curl -X POST -i http://127.0.0.1:5000/users -d “name=foo”
 ```
 
+#＃ Response
+
+```
+HTTP/1.0 201 Created
+...
+{
+    "id": 1,
+    "name": "foo"
+}
+```
+
 # GET users
 
 ```
 curl -X GET -i http://127.0.0.1:5000/users/1
+```
+
+#＃ Response
+
+```
+HTTP/1.0 200 OK
+...
+{
+    "id": 1,
+    "name": "foo"
+}
 ```
 
 # DELETE users
@@ -35,3 +57,11 @@ curl -X GET -i http://127.0.0.1:5000/users/1
 ```
 curl -X DELETE -i http://127.0.0.1:5000/users/1
 ```
+
+#＃ Response
+
+```
+HTTP/1.0 204 No Content
+...
+```
+
