@@ -43,4 +43,4 @@ User[Alice] Connected to the chat server.
 
 ### my output result
 
-![][https://github.com/LumaCheng/cmpe273-spring18/blob/master/labs/lab3/lab3_output_result.png]
+`![][lab3_output_result.png]`
