@@ -1,4 +1,4 @@
-##How to Setup
+## How to Setup
 
 ```
 virtualenv -p python3 my-venv
@@ -6,21 +6,21 @@ virtualenv -p python3 my-venv
 pip3 install -r requirements.txt
 ```
 
-##How to run Chat server
+## How to run Chat server
 
 ```
 python3 server.py
 ```
 
-##How to run a Chat client
+## How to run a Chat client
 
 ```
 python3 client.py [username]
 ```
 
-##Expected Output
+## Expected Output
 
-###Bob's client
+### Bob's client
 
 ```
 python3 client.py Bob
@@ -31,7 +31,7 @@ User[Bob] Connected to the chat server.
 [Bob] > Hello World
 ```
 
-###Alice's client
+### Alice's client
 
 ```
 python3 client.py Bob
@@ -43,4 +43,4 @@ User[Alice] Connected to the chat server.
 
 ### my output result
 
-lab3_output_result.png
+![][lab3_output_result.png]
