@@ -40,7 +40,3 @@ User[Alice] Connected to the chat server.
 [Smith]: Hi from Smith.
 [Bob]: Hello World
 ```
-
-### my output result
-
-`![][lab3_output_result.png]`
